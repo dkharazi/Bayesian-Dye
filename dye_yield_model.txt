@@ -1,0 +1,12 @@
+model
+{
+ for(i in 1:nBatches){
+       mu[i] ~ dnorm(theta, tau2BTW)
+       for(j in 1:nSamples) {
+             y[j,i] ~ dnorm(mu[i], tau2WITH)
+             }
+       }	
+       tau2WITH ~ dgamma(3, 100) 
+       tau2BTW ~ dgamma(3, 100) 
+       theta ~ dnorm(1000, 0.00001)
+}
