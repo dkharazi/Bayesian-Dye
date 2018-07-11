@@ -4,9 +4,9 @@ An experiment was conducted to observe fiber optical properties. The goal of the
 
 ## Variable Descriptions
 
-`B1:` Dye 1.
-`B2:` Dye 2.
-`B3:` Dye 3.
-`B4:` Dye 4.
-`B5:` Dye 5.
-`B6:` Dye 6.
+`B1:` Dye 1.  
+`B2:` Dye 2.  
+`B3:` Dye 3.  
+`B4:` Dye 4.  
+`B5:` Dye 5.  
+`B6:` Dye 6.  
